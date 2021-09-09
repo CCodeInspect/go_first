@@ -18,8 +18,8 @@ func main() {
 		d = "hh"      //hh
 		e             //hh
 		f = iota      //5
-		g = iota << 6 //6*2^6 =128
-		h = iota >> 2 //7*2^2 =28
+		g = iota << 6 //6*2^6 =384
+		h = iota >> 2 //7/2^2 =7/4
 	)
 
 	fmt.Println(a, b, c, d, e, f, g, h)
