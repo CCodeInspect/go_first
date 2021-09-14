@@ -1,8 +1,8 @@
 package main
 
-import (
+import
 	"fmt"
-)
+
 
 func main() {
 	var stock_code = "123"
